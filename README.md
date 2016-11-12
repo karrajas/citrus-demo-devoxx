@@ -88,13 +88,13 @@ to see that things are working for you.
 Now execute some Citrus integration tests
 
 ```
-mvn -pl integration integration-test
+mvn -pl acceptance integration-test
 ```
 
 To stop the Docker containers run
 
 ```
-mvn -pl integration docker:stop
+mvn -pl acceptance docker:stop
 ```
 
 Now lets run the complete lifecycle with all modules build, shipped to Docker and all Citrus tests executed
